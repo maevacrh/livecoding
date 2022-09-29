@@ -1,0 +1,24 @@
+{
+  "name": "pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "validator":"npx html-validator ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maevacrh/livecoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maevacrh/livecoding/issues"
+  },
+  "homepage": "https://github.com/maevacrh/livecoding#readme",
+  "type": "module",
+  "devDependencies": {
+    "w3c-html-validator": "^1.1.3"
+  }
+}
